@@ -72,19 +72,19 @@ An implicit intent specifies an action instead of a specific component. Android 
 
 ### Main Activity
 
-![Main Activity](screenshots/01_main_activity.png)
+<img src="screenshots/01_main_activity.png" width="300">
 
 ### Second Activity
 
-![Second Activity](screenshots/02_second_activity.png)
+<img src="screenshots/02_second_activity.png" width="300">
 
 ### Website
 
-![Website](screenshots/03_website.png)
+<img src="screenshots/03_website.png" width="300">
 
 ### Location
 
-![Location](screenshots/04_location.png)
+<img src="screenshots/04_location.png" width="300">
 
 ## Author
 
