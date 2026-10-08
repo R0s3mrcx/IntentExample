@@ -62,11 +62,13 @@ Intent intent = new Intent(Intent.ACTION_VIEW, uri);
 startActivity(intent);
 ```
 
-## Explicit vs Implicit Intent
+## Control Question
 
-An explicit intent specifies the exact component that should handle the request. It is appropriate when launching a specific activity inside the same application.
+Why is an explicit Intent appropriate when launching a specific Activity inside your own application, while an implicit Intent can be used to open a web page?
 
-An implicit intent specifies an action instead of a specific component. Android looks for an application that can handle that action. This is useful for tasks such as opening a website or displaying a location in a map application.
+-An explicit Intent is used when we already know which Activity we want to open. In this case, MainActivity knows that it needs to open SecondActivity, so we can specify it directly.
+
+-An implicit Intent works a little differently. Instead of choosing a specific Activity or app, we tell Android what we want to do and Android finds an app that can handle it. For example, when opening a website, we don't need to know which browser the user has installed.
 
 ## Screenshots
 
